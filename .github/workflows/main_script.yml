@@ -1,0 +1,16 @@
+name: main script
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: [self-hosted]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update version
+        run: |
+          $VERSION = (Get-Date -Format "yyyyMMddHHmm")  # 以當前日期時間作為版本號
+          (Get-Content "filter/mobile.txt") -replace '! Version: .*', "! Version: $VERSION" | Set-Content "filter/mobile.txt"
