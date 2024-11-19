@@ -1,8 +1,11 @@
 [Adguard]
 ! Title: Custom Mobile Filter
-! Version: 20241119.1
+! Version: 20241119.2
 ! Homepage: https://github.com/jason84019020/adguard-custom-filter
 ! ----------------------------------------------------------------------
 
 !COLAMANGA https://www.colamanga.com/
 ||diligencejusticeimprobable.com^
+
+!禁漫天堂 18comic https://18comic.org/
+||orsszeazsx.com^
