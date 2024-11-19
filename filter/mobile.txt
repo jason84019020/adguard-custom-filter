@@ -1,6 +1,6 @@
 [Adguard]
 ! Title: Custom Mobile Filter
-! Version: 20241120.1
+! Version: 20241120.2
 ! Homepage: https://github.com/jason84019020/adguard-custom-filter
 ! ----------------------------------------------------------------------
 
@@ -9,3 +9,4 @@
 
 !18comic https://18comic.org/
 ||orsszeazsx.com^
+||cpyjcefu.com^
