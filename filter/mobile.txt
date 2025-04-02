@@ -1,6 +1,6 @@
 [Adguard]
 ! Title: Custom Mobile Filter
-! Version: 20241121.2
+! Version: 20250402.1
 ! Homepage: https://github.com/jason84019020/adguard-custom-filter
 ! ----------------------------------------------------------------------
 
@@ -14,3 +14,8 @@
 ||18comic.org#%#//scriptlet('prevent-fetch', '/magsrv.com|realsrv.com/')
 ||guhscaafjp.com^
 ||okznasjax.com^
+
+!manhwa-raw https://manhwa-raw.com/
+||manhwa-raw.com^*/postscribe.js$script
+||zen.manhwa-raw.com^*/postscribe.js$script
+||zen.manhwa-raw.com^$script,redirect
